@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -8,8 +9,14 @@ using WebApiStudentsLoginDemo.Models;
 
 namespace WebApiStudentsLoginDemo.Controllers
 {
+    [RoutePrefix("api/rwstudent")]
     public class RWStudentController : ApiController
     {
+        
+        //CRUD
+        
+        //SELECT *  - read
+        //[HttpGet]       
         public IHttpActionResult Get()
         {
             try
@@ -24,6 +31,49 @@ namespace WebApiStudentsLoginDemo.Controllers
             }
         }
 
+        //GET by bool
+        [Route("{isAvi:bool}")]
+        public IHttpActionResult Get(bool isAvi)
+        {
+            try
+            {
+                if (isAvi)
+                {
+                    return Ok(StudentsDB.GetAllStudents().SingleOrDefault(stu => stu.Name == "avi"));
+                }
+                else
+                {
+                    return Ok(StudentsDB.GetAllStudents().Where(stu => stu.Name != "avi"));
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        //get grade
+        [HttpGet]
+        [Route("{id}/grade")]
+        [Route("~/sg/{id}")]
+        public IHttpActionResult ReturnStudentGrade(int id)
+        {
+            try
+            {
+                Student s = StudentsDB.GetStudentByID(id);
+                if (s != null)
+                {
+                    return Ok(s.Grade);
+                }
+                return Content(HttpStatusCode.NotFound, $"student with id {id} was not found in order to return his grade!!!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [Route("{id:int:min(1)}", Name = "GetStudentByID")]
         public IHttpActionResult Get(int id)
         {
             try
@@ -41,6 +91,7 @@ namespace WebApiStudentsLoginDemo.Controllers
             }
         }
 
+        //insert - crearte
         public IHttpActionResult Post([FromBody] Student studen2Insert)
         {
 
@@ -52,7 +103,8 @@ namespace WebApiStudentsLoginDemo.Controllers
                     return Content(HttpStatusCode.BadRequest, $"student id = {studen2Insert.ID} was not created in the DB!!!");
                 }
                 studen2Insert.ID = res;
-                return Created(new Uri(Request.RequestUri.AbsoluteUri + res), studen2Insert);
+                return Created(new Uri(Url.Link("GetStudentByID", new { id = res })), studen2Insert);
+                //return Created(new Uri(Request.RequestUri.AbsoluteUri + res), studen2Insert);
             }
             catch (Exception ex)
             {
@@ -60,6 +112,7 @@ namespace WebApiStudentsLoginDemo.Controllers
             }
         }
 
+        //update - update
         public IHttpActionResult Put(Student student2Update)
         {
             try
@@ -83,6 +136,7 @@ namespace WebApiStudentsLoginDemo.Controllers
             }
         }
 
+        //delete - delete
         public IHttpActionResult Delete(int id)
         {
             try
@@ -99,6 +153,42 @@ namespace WebApiStudentsLoginDemo.Controllers
                 }
                 return Content(HttpStatusCode.NotFound, "student with id = " + id + " was not found to delete!!!");
 
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        [Route("stam/{name2}")]
+        public IHttpActionResult Stam( string name2)
+        {
+            return Ok(name2 + ":)");
+        }
+
+        [HttpPost]
+        [Route("stam3")]
+        public IHttpActionResult Stam3([FromBody] string name)
+        {
+            return Ok(name + ":)3");
+        }
+
+        [HttpPost]
+        [Route("stam2")]
+        public IHttpActionResult Stam(Student s2)
+        {
+            return Ok(s2.Name  + ", " + s2.ID+ ":)");
+        }
+
+        [HttpGet]
+        [Route("{grade}/students")]
+        public IHttpActionResult GetAllStudentWithGradeGreaterThan(int grade)
+        {
+            try
+            {
+                DataTable dt = StudentsDB.GetAllStudentsWithGradeGreaterThan(grade);
+                return Ok(dt);
             }
             catch (Exception ex)
             {

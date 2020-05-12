@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
 namespace WebApiStudentsLoginDemo.Models
 {
     public class StudentsDB
     {
         static string strCon = @"Data Source=E440\SQLEXPRESS;Initial Catalog=UsersDB;Integrated Security=True";
+        static SqlConnection con = new SqlConnection(strCon);
         public static List<Student> GetAllStudents()
         {
             string strComm = "SELECT * FROM StudentsTB";
@@ -72,15 +71,15 @@ namespace WebApiStudentsLoginDemo.Models
                 $" '{student2Insert.Password}'," +
                 $"  {student2Insert.Grade}); ";
 
-            strComm += 
-                " SELECT SCOPE_IDENTITY() AS[SCOPE_IDENTITY]; " ;
+            strComm +=
+                " SELECT SCOPE_IDENTITY() AS[SCOPE_IDENTITY]; ";
 
-            return ExcReaderInsertStudent(strComm);            
+            return ExcReaderInsertStudent(strComm);
         }
 
         private static int ExcNonQ(string comm2Run)
         {
-            SqlConnection con = new SqlConnection(strCon);
+
             SqlCommand comm = new SqlCommand(comm2Run, con);
             comm.Connection.Open();
             int res = comm.ExecuteNonQuery();
@@ -91,7 +90,6 @@ namespace WebApiStudentsLoginDemo.Models
         public static int ExcReaderInsertStudent(string comm2Run)
         {
             int studentID = -1;
-            SqlConnection con = new SqlConnection(strCon);
             SqlCommand comm = new SqlCommand(comm2Run, con);
             comm.Connection.Open();
             SqlDataReader reader = comm.ExecuteReader();
@@ -119,6 +117,23 @@ namespace WebApiStudentsLoginDemo.Models
             }
             comm.Connection.Close();
             return sl;
+        }
+
+        public static DataTable GetAllStudentsWithGradeGreaterThan(int grade)
+        {
+            string strComm =
+                " SELECT * FROM StudentsTB " +
+                " WHERE Grade>=" + grade;
+            return ExcDataSet(strComm);
+        }
+
+        private static DataTable ExcDataSet(string comm)
+        {
+            DataSet ds = new DataSet();
+            SqlDataAdapter adptr = new SqlDataAdapter(comm, con);
+            adptr.Fill(ds, "Temp");
+
+            return ds.Tables["Temp"];
         }
     }
 }
