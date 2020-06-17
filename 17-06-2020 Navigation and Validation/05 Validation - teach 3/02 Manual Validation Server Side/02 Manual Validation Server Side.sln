@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "02 Manual Validation Server Side", ".", "{A7B2F29F-4612-426D-9506-057F148BCBF9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/02 Manual Validation Server Side"
+		Debug.AspNetCompiler.PhysicalPath = "..\02 Manual Validation Server Side\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\02 Manual Validation Server Side\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/02 Manual Validation Server Side"
+		Release.AspNetCompiler.PhysicalPath = "..\02 Manual Validation Server Side\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\02 Manual Validation Server Side\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50208"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B2F29F-4612-426D-9506-057F148BCBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B2F29F-4612-426D-9506-057F148BCBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
