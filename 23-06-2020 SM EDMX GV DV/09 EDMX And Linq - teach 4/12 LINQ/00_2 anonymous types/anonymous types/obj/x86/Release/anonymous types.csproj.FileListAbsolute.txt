@@ -1,0 +1,5 @@
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\bin\Release\anonymous types.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\bin\Release\anonymous types.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\obj\x86\Release\ResolveAssemblyReference.cache
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\obj\x86\Release\anonymous types.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\obj\x86\Release\anonymous types.pdb

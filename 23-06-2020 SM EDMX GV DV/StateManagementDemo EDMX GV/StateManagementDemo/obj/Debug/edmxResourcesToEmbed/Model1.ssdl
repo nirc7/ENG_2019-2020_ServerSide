@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VIDEOLIBPROJECTV01.MDFModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Actor">
+    <Key>
+      <PropertyRef Name="ActorID" />
+    </Key>
+    <Property Name="ActorID" Type="int" Nullable="false" />
+    <Property Name="ActorName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BirthDate" Type="date" Nullable="false" />
+    <Property Name="CountryID" Type="smallint" />
+  </EntityType>
+  <EntityType Name="ActorMovie">
+    <Key>
+      <PropertyRef Name="ActorID" />
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="ActorID" Type="int" Nullable="false" />
+    <Property Name="MovieID" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="CountryID" />
+    </Key>
+    <Property Name="CountryID" Type="smallint" Nullable="false" />
+    <Property Name="CountryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="MemberID" />
+    </Key>
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="MemberLevel" Type="tinyint" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LastName" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="BirthDate" Type="date" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nchar" MaxLength="30" />
+    <Property Name="HouseNumber" Type="smallint" />
+    <Property Name="HomePhone" Type="int" />
+    <Property Name="MobilePhone" Type="int" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="DaysBalance" Type="smallint" Nullable="false" />
+    <Property Name="MemberSince" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MovieID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="MovieName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MovieTypeID" Type="smallint" Nullable="false" />
+    <Property Name="Copies" Type="smallint" Nullable="false" />
+    <Property Name="Summary" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Year" Type="smallint" Nullable="false" />
+    <Property Name="Lenght" Type="smallint" Nullable="false" />
+    <Property Name="CountryID" Type="smallint" Nullable="false" />
+    <Property Name="MoviePicUrl" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TrailerUrl" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Active" Type="tinyint" Nullable="false" />
+    <Property Name="DateAdded" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MovieType">
+    <Key>
+      <PropertyRef Name="MovieTypeID" />
+    </Key>
+    <Property Name="MovieTypeID" Type="smallint" Nullable="false" />
+    <Property Name="MovieTypeName" Type="nchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'VIDEOLIBPROJECTV01.MDF.dbo.popular' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="popular">
+    <Key>
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MovieID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="movieCount" Type="int" />
+  </EntityType>
+  <EntityType Name="Rent">
+    <Key>
+      <PropertyRef Name="MemberID" />
+      <PropertyRef Name="MovieID" />
+      <PropertyRef Name="RentStart" />
+    </Key>
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="MovieID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="RentStart" Type="date" Nullable="false" />
+    <Property Name="RentEnd" Type="date" />
+    <Property Name="RentDays" Type="int" />
+  </EntityType>
+  <EntityType Name="Review">
+    <Key>
+      <PropertyRef Name="MemberID" />
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="MovieID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ReviewText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Rate" Type="tinyint" Nullable="false" />
+    <Property Name="ReviewDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="WaitingList">
+    <Key>
+      <PropertyRef Name="MemberID" />
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="MovieID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="WaitDate" Type="date" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Actor_Country">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Actor" Type="Self.Actor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="CountryID" />
+      </Principal>
+      <Dependent Role="Actor">
+        <PropertyRef Name="CountryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActorMovie_Actor">
+    <End Role="Actor" Type="Self.Actor" Multiplicity="1" />
+    <End Role="ActorMovie" Type="Self.ActorMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actor">
+        <PropertyRef Name="ActorID" />
+      </Principal>
+      <Dependent Role="ActorMovie">
+        <PropertyRef Name="ActorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActorMovie_Movie">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="ActorMovie" Type="Self.ActorMovie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="ActorMovie">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Movie_Country">
+    <End Role="Country" Type="Self.Country" Multiplicity="1" />
+    <End Role="Movie" Type="Self.Movie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="CountryID" />
+      </Principal>
+      <Dependent Role="Movie">
+        <PropertyRef Name="CountryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Movie_MovieType">
+    <End Role="MovieType" Type="Self.MovieType" Multiplicity="1" />
+    <End Role="Movie" Type="Self.Movie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MovieType">
+        <PropertyRef Name="MovieTypeID" />
+      </Principal>
+      <Dependent Role="Movie">
+        <PropertyRef Name="MovieTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rent_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="1" />
+    <End Role="Rent" Type="Self.Rent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="Rent">
+        <PropertyRef Name="MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rent_Movie">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="Rent" Type="Self.Rent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="Rent">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Review_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="1" />
+    <End Role="Review" Type="Self.Review" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Review_Movie">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="Review" Type="Self.Review" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WaitingList_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="1" />
+    <End Role="WaitingList" Type="Self.WaitingList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="WaitingList">
+        <PropertyRef Name="MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WaitingList_Movie">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="WaitingList" Type="Self.WaitingList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="WaitingList">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VIDEOLIBPROJECTV01MDFModelStoreContainer">
+    <EntitySet Name="Actor" EntityType="Self.Actor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ActorMovie" EntityType="Self.ActorMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Movie" EntityType="Self.Movie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieType" EntityType="Self.MovieType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rent" EntityType="Self.Rent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Review" EntityType="Self.Review" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WaitingList" EntityType="Self.WaitingList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="popular" EntityType="Self.popular" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [popular].[MovieID] AS [MovieID], 
+    [popular].[movieCount] AS [movieCount]
+    FROM [dbo].[popular] AS [popular]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Actor_Country" Association="Self.FK_Actor_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Actor" EntitySet="Actor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActorMovie_Actor" Association="Self.FK_ActorMovie_Actor">
+      <End Role="Actor" EntitySet="Actor" />
+      <End Role="ActorMovie" EntitySet="ActorMovie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActorMovie_Movie" Association="Self.FK_ActorMovie_Movie">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="ActorMovie" EntitySet="ActorMovie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Movie_Country" Association="Self.FK_Movie_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Movie" EntitySet="Movie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Movie_MovieType" Association="Self.FK_Movie_MovieType">
+      <End Role="MovieType" EntitySet="MovieType" />
+      <End Role="Movie" EntitySet="Movie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rent_Member" Association="Self.FK_Rent_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="Rent" EntitySet="Rent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rent_Movie" Association="Self.FK_Rent_Movie">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="Rent" EntitySet="Rent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Review_Member" Association="Self.FK_Review_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="Review" EntitySet="Review" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Review_Movie" Association="Self.FK_Review_Movie">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="Review" EntitySet="Review" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WaitingList_Member" Association="Self.FK_WaitingList_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="WaitingList" EntitySet="WaitingList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WaitingList_Movie" Association="Self.FK_WaitingList_Movie">
+      <End Role="Movie" EntitySet="Movie" />
+      <End Role="WaitingList" EntitySet="WaitingList" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

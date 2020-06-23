@@ -1,0 +1,24 @@
+C:\Users\Home\AppData\Local\Temporary Projects\linq examples\bin\Debug\linq examples.exe
+C:\Users\Home\AppData\Local\Temporary Projects\linq examples\bin\Debug\linq examples.pdb
+C:\Users\Home\AppData\Local\Temporary Projects\linq examples\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Home\AppData\Local\Temporary Projects\linq examples\obj\x86\Debug\linq examples.exe
+C:\Users\Home\AppData\Local\Temporary Projects\linq examples\obj\x86\Debug\linq examples.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.exe
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\bin\Debug\linq examples.exe
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\bin\Debug\linq examples.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\bin\Debug\linq examples.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\bin\Debug\linq examples.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.exe
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.pdb
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_2 Linq examples\linq examples\bin\Debug\linq examples.exe
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_2 Linq examples\linq examples\bin\Debug\linq examples.pdb
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 02_06_2011 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 02_06_2011 Module 14 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_2 Linq examples\linq examples\obj\x86\Debug\linq examples.pdb

@@ -1,0 +1,16 @@
+C:\Users\podium\Desktop\nir\DataSet\DataSet\bin\Debug\DataSet.exe
+C:\Users\podium\Desktop\nir\DataSet\DataSet\bin\Debug\DataSet.pdb
+C:\Users\podium\Desktop\nir\DataSet\DataSet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\podium\Desktop\nir\DataSet\DataSet\obj\x86\Debug\DataSet.exe
+C:\Users\podium\Desktop\nir\DataSet\DataSet\obj\x86\Debug\DataSet.pdb
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\10 ADO II - DataSet, GridView And Stored Procedure\solutions\01 demo\DataSet\DataSet\obj\x86\Debug\DataSet.exe
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\10 ADO II - DataSet, GridView And Stored Procedure\solutions\01 demo\DataSet\DataSet\obj\x86\Debug\DataSet.pdb
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\13 LINQ\DataSet\DataSet\obj\x86\Debug\DataSet.exe
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\13 LINQ\DataSet\DataSet\obj\x86\Debug\DataSet.pdb
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\13 LINQ\DataSet\DataSet\bin\Debug\DataSet.exe
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\13 LINQ\DataSet\DataSet\bin\Debug\DataSet.pdb
+F:\1קורסים\2014\ruppin eng\Lectures\Part II - Advanced C#\13 LINQ\DataSet\DataSet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\400.RUPPINDOM\Desktop\13 LINQ\DataSet\DataSet\obj\x86\Debug\DataSet.exe
+C:\Users\400.RUPPINDOM\Desktop\13 LINQ\DataSet\DataSet\obj\x86\Debug\DataSet.pdb
+C:\Users\400.RUPPINDOM\Desktop\13 LINQ\DataSet\DataSet\bin\Debug\DataSet.exe
+C:\Users\400.RUPPINDOM\Desktop\13 LINQ\DataSet\DataSet\bin\Debug\DataSet.pdb

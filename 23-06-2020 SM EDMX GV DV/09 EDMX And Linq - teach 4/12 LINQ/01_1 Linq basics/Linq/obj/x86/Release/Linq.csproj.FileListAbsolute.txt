@@ -1,0 +1,5 @@
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\bin\Release\Linq.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\bin\Release\Linq.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\obj\x86\Release\ResolveAssemblyReference.cache
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\obj\x86\Release\Linq.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\obj\x86\Release\Linq.pdb

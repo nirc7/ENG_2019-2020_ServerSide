@@ -1,0 +1,24 @@
+C:\Documents and Settings\atzmon\Desktop\LINQ_HW1\LINQ_HW1\bin\Debug\LINQ_HW1.exe
+C:\Documents and Settings\atzmon\Desktop\LINQ_HW1\LINQ_HW1\bin\Debug\LINQ_HW1.pdb
+C:\Documents and Settings\atzmon\Desktop\LINQ_HW1\LINQ_HW1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\atzmon\Desktop\LINQ_HW1\LINQ_HW1\obj\Debug\LINQ_HW1.exe
+C:\Documents and Settings\atzmon\Desktop\LINQ_HW1\LINQ_HW1\obj\Debug\LINQ_HW1.pdb
+C:\לימודים\hi-tech\from nir\4273 - CSharp 3\28 28_03_2011 LINQ_HW1\LINQ_HW1\obj\Debug\LINQ_HW1.exe
+C:\לימודים\hi-tech\from nir\4273 - CSharp 3\28 28_03_2011 LINQ_HW1\LINQ_HW1\obj\Debug\LINQ_HW1.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.exe
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\bin\Debug\LINQ_HW1.exe
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\bin\Debug\LINQ_HW1.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\ResolveAssemblyReference.cache
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\bin\Debug\LINQ_HW1.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\bin\Debug\LINQ_HW1.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\ResolveAssemblyReference.cache
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\bin\Debug\LINQ_HW1.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\bin\Debug\LINQ_HW1.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\ResolveAssemblyReference.cache
+C:\לימודים\מתרגל\ruppin\ruppin 2014\ruppin 2014 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2014\ruppin 2014 II\13 LINQ\תרגיל 1 LINQ\LINQ_HW1\obj\Debug\LINQ_HW1.pdb

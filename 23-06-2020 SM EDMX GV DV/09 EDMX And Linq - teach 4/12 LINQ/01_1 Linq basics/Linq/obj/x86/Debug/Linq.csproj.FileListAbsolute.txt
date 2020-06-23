@@ -1,0 +1,22 @@
+C:\Users\Home\AppData\Local\Temporary Projects\Linq\bin\Debug\Linq.exe
+C:\Users\Home\AppData\Local\Temporary Projects\Linq\bin\Debug\Linq.pdb
+C:\Users\Home\AppData\Local\Temporary Projects\Linq\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Home\AppData\Local\Temporary Projects\Linq\obj\x86\Debug\Linq.exe
+C:\Users\Home\AppData\Local\Temporary Projects\Linq\obj\x86\Debug\Linq.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_1 Linq\Linq\obj\x86\Debug\Linq.exe
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_1 Linq\Linq\obj\x86\Debug\Linq.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_1 Linq\Linq\bin\Debug\Linq.exe
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_1 Linq\Linq\bin\Debug\Linq.pdb
+C:\לימודים\hi-tech\MY_MCPD\MY_4273\14 Module 14 LINQ\01_1 Linq\Linq\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\Linq.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\Linq.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_1 Linq basics\Linq\bin\Debug\Linq.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\14 Module 14 LINQ\01_1 Linq basics\Linq\bin\Debug\Linq.pdb
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\Linq.exe
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\Linq.pdb
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_1 Linq basics\Linq\bin\Debug\Linq.exe
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_1 Linq basics\Linq\bin\Debug\Linq.pdb
+C:\Documents and Settings\Administrator\Desktop\14 Module 14 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\Linq.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\01_1 Linq basics\Linq\obj\x86\Debug\Linq.pdb

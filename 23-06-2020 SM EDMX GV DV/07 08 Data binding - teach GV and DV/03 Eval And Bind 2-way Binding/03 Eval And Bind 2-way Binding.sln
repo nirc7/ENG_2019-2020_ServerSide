@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03 Eval And Bind 2-way Binding", ".", "{0A47B367-1514-4C7E-8EBD-E6A5D8C057FA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/03 Eval And Bind 2-way Binding"
+		Debug.AspNetCompiler.PhysicalPath = "..\03 Eval And Bind 2-way Binding\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\03 Eval And Bind 2-way Binding\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/03 Eval And Bind 2-way Binding"
+		Release.AspNetCompiler.PhysicalPath = "..\03 Eval And Bind 2-way Binding\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\03 Eval And Bind 2-way Binding\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53076"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A47B367-1514-4C7E-8EBD-E6A5D8C057FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A47B367-1514-4C7E-8EBD-E6A5D8C057FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

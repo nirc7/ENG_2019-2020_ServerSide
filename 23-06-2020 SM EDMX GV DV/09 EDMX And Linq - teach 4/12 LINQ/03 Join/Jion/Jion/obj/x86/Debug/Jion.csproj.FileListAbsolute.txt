@@ -1,0 +1,4 @@
+C:\לימודים\מתרגל\ruppin\ruppin 2014\ruppin 2014 II\13 LINQ\03 Join\Jion\Jion\bin\Debug\Jion.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2014\ruppin 2014 II\13 LINQ\03 Join\Jion\Jion\bin\Debug\Jion.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2014\ruppin 2014 II\13 LINQ\03 Join\Jion\Jion\obj\x86\Debug\Jion.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2014\ruppin 2014 II\13 LINQ\03 Join\Jion\Jion\obj\x86\Debug\Jion.pdb

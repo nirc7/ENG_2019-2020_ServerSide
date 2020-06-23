@@ -1,0 +1,19 @@
+C:\Users\Home\AppData\Local\Temporary Projects\anonymous types\bin\Debug\anonymous types.exe
+C:\Users\Home\AppData\Local\Temporary Projects\anonymous types\bin\Debug\anonymous types.pdb
+C:\Users\Home\AppData\Local\Temporary Projects\anonymous types\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Home\AppData\Local\Temporary Projects\anonymous types\obj\x86\Debug\anonymous types.exe
+C:\Users\Home\AppData\Local\Temporary Projects\anonymous types\obj\x86\Debug\anonymous types.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\anonymous types.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\anonymous types.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\bin\Debug\anonymous types.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\bin\Debug\anonymous types.pdb
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\anonymous types.exe
+C:\Documents and Settings\Administrator\Desktop\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\anonymous types.pdb
+C:\Documents and Settings\Administrator\Desktop\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\bin\Debug\anonymous types.exe
+C:\Documents and Settings\Administrator\Desktop\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\bin\Debug\anonymous types.pdb
+C:\Documents and Settings\Administrator\Desktop\13 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 30_05_2011 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\anonymous types.exe
+C:\לימודים\hi-tech\MY_MCPD\03 MY_4273\13 30_05_2011 Module 14 C#3.0 Enhancements\01_3 c#3.0 - anonymous types\anonymous types\obj\x86\Debug\anonymous types.pdb
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\obj\x86\Debug\anonymous types.exe
+C:\לימודים\מתרגל\ruppin\ruppin 2013\ruppin 2013 II\13 LINQ\00_2 anonymous types\anonymous types\obj\x86\Debug\anonymous types.pdb
