@@ -59,6 +59,7 @@ namespace MyFirstWebAPIDemo.Controllers
         }
 
         //DELETE
+        [HttpDelete]
         public IHttpActionResult Delete(int id)
         {
             Student student2Delete = StudentsDB.students.SingleOrDefault(stu => stu.ID == id);
